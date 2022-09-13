@@ -4,9 +4,6 @@ import ApartmentList from "../apartmentlist/ApartmentList";
 import AddApartment from "../apartmentform/AddApartment";
 import { Routes, Route } from "react-router-dom";
 
-
-
-
 function App() {
   return(
     <div>
