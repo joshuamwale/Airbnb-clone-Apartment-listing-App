@@ -8,4 +8,4 @@ What I want users to get from this app is for them to browse an existing list of
 
 The standalone API I have created using Sinatra and ActiveRecords and which stores the data to be displayed by my frontendapp is ["http://localhost:9292/apartments"]. This is the base URL for my backend.
 
-The backend repo for my project that I have deployed on Heroku/Digital Ocean is here: []
+The backend repo for my project that I have deployed on Heroku/Digital Ocean is here: ["https://air-bnb-react-frontend.herokuapp.com/"]
