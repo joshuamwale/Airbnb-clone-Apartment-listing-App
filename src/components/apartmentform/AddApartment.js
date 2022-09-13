@@ -22,3 +22,33 @@ export default function CreateApartment() {
         console.log(data);
         // if successful, redirect to the apartment page
     };
+
+    //clear form after submit
+
+const clearForm = (e) => {
+    e.target.name.value = "";
+    e.target.location = "";
+    e.target.price = "";
+    e.target.rating = "";
+    window.render()
+}
+
+return (
+    <div className="container">
+        <h1>Post An Apartment</h1>
+        <form onSubmit={  AddApartment } className="form-center">
+            <label>Name:</label>
+            <input type="text" name="name" />
+            <label>Location:</label>
+            <input type="text" name="location" />
+            <label>Price:</label>
+            <input type="integer" name="price" />
+            <label>Rating:</label>
+            <input type="integer" name="rating" />
+            <button type="submit" onClick={clearForm} >
+                Submit
+            </button>
+        </form>
+    </div>
+);
+}
