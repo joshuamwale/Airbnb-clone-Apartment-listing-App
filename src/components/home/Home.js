@@ -2,6 +2,7 @@ import React from "react";
 
 function Home() {
     return(
+
         <div id="home">
             <center style={{marginTop: 5 +'em', fontSize: 20 + 'px'}}>
                 <p>
