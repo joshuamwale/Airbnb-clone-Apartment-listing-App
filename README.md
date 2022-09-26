@@ -4,7 +4,7 @@ What I want users to get from this app is for them to browse an existing list of
 Hyperlinks
 
 The project is in two parts:
- > The Frontend (current repository) implemented using ReactJS. The link to 1the web app (frontend is here: [air-bnb-react-frontend.herokuapp.com/apartments]
+ > The Frontend (current repository) implemented using ReactJS. The link to 1the web app (frontend is here: [air-bnb-react-frontend.herokuapp.com]
  > The backend  implemented in Ruby and Ruby's sinatra and hosted on Heroku. 
 
 View the web page, hosted on Heroku too here: [https://apartmentsairbnb.herokuapp.com/apartments]
