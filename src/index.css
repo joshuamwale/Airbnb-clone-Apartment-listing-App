@@ -10,10 +10,20 @@ body {
   flex-direction: row;
 }
 
+.homebtn {
+  margin-right: 10px;
+  margin-left: 10px;
+  max-height: fit-content;
+  text-decoration: none;
+  background-color: rgb(66, 114, 68);
+  padding: 7px 12px;
+  color: white;
+}
+
 .navBar {
   position: fixed;
   overflow: hidden;
-  background-color: rgb(238, 37, 10);
+  background-color: rgb(238, 44, 10);
   top: 0;
   left: 0;
   right: 0;
