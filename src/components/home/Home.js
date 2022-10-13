@@ -12,6 +12,7 @@ function Home() {
                 The plan is simple: scroll through the list to find your preffered facility. <br></br>
                 The app also allows you to add other apartments you have previously enjoyed staying in.
                 </p>
+                
                 <Link to="/apartmentlist" className="homebtn">Our Apartments</Link>
             </center>
         </div>
